@@ -395,11 +395,19 @@ section{
 .about{
 	flex-direction: column;
 	}
+
 .about .matter,
 .about .human{
 	width: 100%;
 	padding: 50px;
 	min-height: 400px;
 	text-align: center;
-}
+	}
+
+.services{
+		padding: 50px;
+	}
+
+	
+
 } 
