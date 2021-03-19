@@ -408,6 +408,11 @@ section{
 		padding: 50px;
 	}
 
-	
-
+.services .container{
+	justify-content: center;
+	margin-top: 20px;
+}
+.services .container .offers{
+	margin: 20px;
+}
 } 
