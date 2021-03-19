@@ -269,14 +269,19 @@ section{
 }
 
 .footer{
-	background: #162c3b;
+	background: #ffffff;
 	padding: 20px 100px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 }
 
-.footer ul{
+.owner{
+	color: black;
+	font-weight: 500;
+}
+
+/*.footer ul{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -296,7 +301,7 @@ section{
 	filter: invert(1);
 	max-width: 20px;
 }
-
+*/
 .social-icons{
 	position: fixed;
 	top: 50%;
