@@ -169,7 +169,7 @@ section{
 }
 
 .services .container .offers img{
-	max-width: 100px;
+	max-width: 200px;
 }
 
 .services .container .offers h2{
@@ -207,66 +207,6 @@ section{
 	text-align: center;
 }
 
-.imgBx2{
-	background: url(images/selfie.svg);
-	background-size: cover;
-	background-position: center;
-	width: 50%;
-}
-
-.redbg{
-	background: url(images/red.jpg) !important;
-	background-size: cover;
-	background-position: center;
-}
-
-.form .inputBox{
-	margin-bottom: 40px;
-}
-
-.form .inputBox input{
-	width: 100%;
-	background: transparent;
-	box-shadow: none;
-	border:none;
-	outline: none;
-	padding: 10px 0;
-	font-size: 18px;
-	font-weight: 300;
-	color: #fff;
-	border-bottom: 2px solid #fff;
-}
-
-.form .inputBox input::placeholder{
-	color: #fff;
-}
-
-.form .inputBox textarea{
-	width: 100%;
-	background: transparent;
-	box-shadow: none;
-	border:none;
-	outline: none;
-	min-height: 100px;
-	padding: 10px 0;
-	font-size: 18px;
-	font-weight: 300;
-	color: #fff;
-	border-bottom: 2px solid #fff;
-}
-
-.form .inputBox textarea::placeholder{
-	color: #fff;
-}
-
-.form .inputBox input[type="button"]
-{
-	width: 150px;
-	background: #fff;
-	color: #111;
-	cursor: pointer;
-	font-weight: 300;
-}
 
 .footer{
 	background: #ffffff;
@@ -281,27 +221,7 @@ section{
 	font-weight: 500;
 }
 
-/*.footer ul{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 
-.footer ul li{
-	list-style: none;
-}
-
-.footer ul li a{
-	text-decoration: none;
-	display: inline-block;
-	margin: 0 10px;
-}
-
-.footer ul li img{
-	filter: invert(1);
-	max-width: 20px;
-}
-*/
 .social-icons{
 	position: fixed;
 	top: 50%;
@@ -321,6 +241,7 @@ section{
 	background-color: #ffffff;
 	border: 1px solid #cbcbcb;
 	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	text-decoration: none;
 }
 
 .social-icons i{
